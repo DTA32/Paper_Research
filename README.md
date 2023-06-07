@@ -4,7 +4,27 @@
 
 ---
 
-### Material
+Structure:
+
+1. Introduction -> tambahin referensi definisi
+2. Literature Review -> kurangin yang unrelated
+3. Methodology
+
+   1. penjelasan algoritmanya (pseudocode/flowchart)
+   2. jelasin dataset, library, sama spek pc yang dipake
+
+4. **Result and Discussion [dibahas dibawah]**
+5. Conclusions
+
+## 4. Result and Discussion
+
+### Working steps
+
+- [x] Pilih algo & dataset
+- [ ] Cari parser TSPLIB & algo buat python
+- [ ] Implementasi (janlup itung running time & iterations)
+
+### 1. Material
 
 **algo:**
 
@@ -24,35 +44,10 @@ dokumentasi: (<http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/tsp95.pdf>)
 
 **implementasi: jupyter notebook or python**
 
-### Working steps
+## 2. Parser n Algo
 
-- [x] Pilih algo & dataset
-- [ ] Cari parser TSPLIB & algo buat python
-- [ ] Implementasi (janlup itung running time & iterations)
+Lorem ipsum
 
-### Uncategorized References:
+### References (Uncategorized)
 
 <https://www.ripublication.com/ijaer18/ijaerv13n9_42.pdf>
-
----
-
-Unused README:
-
-dataset:
-
-- ~~RL5934 (L)~~
-- ~~A280 (M)~~
-- ~~Berlin52 (S)~~
-- ~~Gr21 (S)~~
-- ~~U724 (M)~~
-- ~~USA13509 (L)~~
-
-algo:
-
-- ~~dynamic programming~~
-- ~~nearest neighbour~~
-- ~~ant colony algorithm~~
-- ~~genetic algorithm~~
-- ~~continuous hopfield network~~
-- ~~artificial bee colony~~
-- ~~cheapest insertion heuristic~~
