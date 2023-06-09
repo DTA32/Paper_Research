@@ -122,7 +122,7 @@ class PSO:
 
 if __name__ == "__main__":
     cities = read_cities(657)
-    pso = PSO(iterations=1200, population_size=300, pbest_probability=0.9, gbest_probability=0.02, cities=cities)
+    pso = PSO(iterations=2000, population_size=700, pbest_probability=0.9, gbest_probability=0.01, cities=cities)
 
     start = time.time()
     print("Started at", start)
@@ -148,4 +148,3 @@ if __name__ == "__main__":
     plt.plot(x_list, y_list, 'ro')
     plt.plot(x_list, y_list)
     plt.show(block=True)
-

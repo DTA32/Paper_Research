@@ -67,7 +67,7 @@ class PSO:
         plt.draw()
         for t in range(self.iterations):
             self.gbest = min(self.particles, key=lambda p: p.pbest_cost)
-            if t % 20 == 0:
+            if t % self.iterations == 0:
                 plt.figure(0)
                 plt.plot(pso.gcost_iter, 'g')
                 plt.ylabel('Distance')
@@ -122,7 +122,7 @@ class PSO:
 
 if __name__ == "__main__":
     cities = read_cities(76)
-    pso = PSO(iterations=1200, population_size=300, pbest_probability=0.9, gbest_probability=0.02, cities=cities)
+    pso = PSO(iterations=1000, population_size=150, pbest_probability=0.9, gbest_probability=0.01, cities=cities)
 
     start = time.time()
     print("Started at", start)
