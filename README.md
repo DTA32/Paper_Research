@@ -13,16 +13,16 @@ Structure:
    1. penjelasan algoritmanya (pseudocode/flowchart)
    2. jelasin dataset, library, sama spek pc yang dipake
 
-4. **Result and Discussion [dibahas dibawah]**
-5. Conclusions
+4. Result and Discussion -> jelasin tabel/grafik dari hasil code
+5. Conclusions -> bandingin running time dan number of iteration, jelasin algo mana yang bagus buat small/medium/big
 
 ## 4. Result and Discussion
 
 ### Working steps
 
 - [x] Pilih algo & dataset
-- [ ] Cari parser TSPLIB & algo buat python
-- [ ] Implementasi (janlup itung running time & iterations)
+- ~~[x] Cari parser TSPLIB & algo buat python~~ gajadi, jadinya copas repo orang
+- [x] Implementasi (janlup itung running time & iterations)
 
 ### 1. Material
 
@@ -44,9 +44,17 @@ dokumentasi: (<http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/tsp95.pdf>)
 
 **implementasi: jupyter notebook or python**
 
-## 2. Parser n Algo
+## Implementasi
 
-Lorem ipsum
+Ada di folder program
+
+Pake program dari <https://github.com/rameziophobia/Travelling_Salesman_Optimization>
+
+Catatan:
+
+- PSO buat D657 sama NRW1357 masih terlalu lama, mungkin butuh optimisasi
+- SA parameternya masih bisa di tuning
+- Buat paper, algo PSO sama SA run 20x terus catet min, max, sama avg dari hasil route, running time, sama iterations nya
 
 ### References (Uncategorized)
 
