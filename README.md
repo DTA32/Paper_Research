@@ -21,8 +21,9 @@ Structure:
 ### Working steps
 
 - [x] Pilih algo & dataset
-- ~~[x] Cari parser TSPLIB & algo buat python~~ gajadi, jadinya copas repo orang
+- [x] ~~Cari parser TSPLIB & algo buat python~~ gajadi, jadinya copas repo orang
 - [x] Implementasi (janlup itung running time & iterations)
+- [ ] catet solution, running time, sama iteration
 
 ### 1. Material
 
