@@ -23,9 +23,9 @@ Structure:
 - [x] Pilih algo & dataset
 - [x] ~~Cari parser TSPLIB & algo buat python~~ gajadi, jadinya copas repo orang
 - [x] Implementasi (janlup itung running time & iterations)
-- [ ] catet solution, running time, sama iteration
+- [x] catet solution, running time, sama iteration
 
-### 1. Material
+## 1. Material
 
 **algo:**
 
@@ -43,9 +43,9 @@ files: (<http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/tsp/>)
 
 dokumentasi: (<http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/tsp95.pdf>)
 
-**implementasi: jupyter notebook or python**
+implementasi: python
 
-## Implementasi
+## 2. Implementasi
 
 Ada di folder program
 
@@ -54,8 +54,7 @@ Pake program dari <https://github.com/rameziophobia/Travelling_Salesman_Optimiza
 Catatan:
 
 - PSO buat D657 sama NRW1357 masih terlalu lama, mungkin butuh optimisasi
-- SA parameternya masih bisa di tuning
-- Buat paper, algo PSO sama SA run 20x terus catet min, max, sama avg dari hasil route, running time, sama iterations nya
+- karena masalah diatas, dataset2 tsb belum di-test (kelamaan)
 
 ### References (Uncategorized)
 

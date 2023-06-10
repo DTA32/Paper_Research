@@ -122,7 +122,7 @@ class PSO:
 
 if __name__ == "__main__":
     cities = read_cities(657)
-    pso = PSO(iterations=2000, population_size=700, pbest_probability=0.9, gbest_probability=0.01, cities=cities)
+    pso = PSO(iterations=2000, population_size=500, pbest_probability=0.9, gbest_probability=0.01, cities=cities)
 
     start = time.time()
     print("Started at", start)
