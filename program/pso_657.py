@@ -63,31 +63,31 @@ class PSO:
     def run(self):
         self.gbest = min(self.particles, key=lambda p: p.pbest_cost)
         print(f"initial cost is {self.gbest.pbest_cost}")
-        plt.ion()
-        plt.draw()
+        # plt.ion()
+        # plt.draw()
         for t in range(self.iterations):
             self.gbest = min(self.particles, key=lambda p: p.pbest_cost)
-            if t % 20 == 0:
-                plt.figure(0)
-                plt.plot(pso.gcost_iter, 'g')
-                plt.ylabel('Distance')
-                plt.xlabel('Generation')
-                fig = plt.figure(0)
-                fig.suptitle('pso iter')
-                x_list, y_list = [], []
-                for city in self.gbest.pbest:
-                    x_list.append(city.x)
-                    y_list.append(city.y)
-                x_list.append(pso.gbest.pbest[0].x)
-                y_list.append(pso.gbest.pbest[0].y)
-                fig = plt.figure(1)
-                fig.clear()
-                fig.suptitle(f'pso TSP iter {t}')
+            # if t % 20 == 0:
+            #     plt.figure(0)
+            #     plt.plot(pso.gcost_iter, 'g')
+            #     plt.ylabel('Distance')
+            #     plt.xlabel('Generation')
+            #     fig = plt.figure(0)
+            #     fig.suptitle('pso iter')
+            #     x_list, y_list = [], []
+            #     for city in self.gbest.pbest:
+            #         x_list.append(city.x)
+            #         y_list.append(city.y)
+            #     x_list.append(pso.gbest.pbest[0].x)
+            #     y_list.append(pso.gbest.pbest[0].y)
+            #     fig = plt.figure(1)
+            #     fig.clear()
+            #     fig.suptitle(f'pso TSP iter {t}')
 
-                plt.plot(x_list, y_list, 'ro')
-                plt.plot(x_list, y_list, 'g')
-                plt.draw()
-                plt.pause(.001)
+            #     plt.plot(x_list, y_list, 'ro')
+            #     plt.plot(x_list, y_list, 'g')
+            #     plt.draw()
+            #     plt.pause(.001)
             self.gcost_iter.append(self.gbest.pbest_cost)
 
             for particle in self.particles:
@@ -122,7 +122,7 @@ class PSO:
 
 if __name__ == "__main__":
     cities = read_cities(657)
-    pso = PSO(iterations=2000, population_size=500, pbest_probability=0.9, gbest_probability=0.01, cities=cities)
+    pso = PSO(iterations=1000, population_size=200, pbest_probability=0.9, gbest_probability=0.01, cities=cities)
 
     start = time.time()
     print("Started at", start)

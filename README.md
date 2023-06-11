@@ -23,7 +23,7 @@ Structure:
 - [x] Pilih algo & dataset
 - [x] ~~Cari parser TSPLIB & algo buat python~~ gajadi, jadinya copas repo orang
 - [x] Implementasi (janlup itung running time & iterations)
-- [x] catet solution, running time, sama iteration
+- [ ] catet solution, running time, sama iteration
 
 ## 1. Material
 
@@ -51,10 +51,9 @@ Ada di folder program
 
 Pake program dari <https://github.com/rameziophobia/Travelling_Salesman_Optimization>
 
-Catatan:
+Jadinya pake google colab, tidak kuat ya laptopnya
 
-- PSO buat D657 sama NRW1357 masih terlalu lama, mungkin butuh optimisasi
-- karena masalah diatas, dataset2 tsb belum di-test (kelamaan)
+Catatan:
 
 ### References (Uncategorized)
 
