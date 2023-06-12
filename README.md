@@ -58,3 +58,7 @@ Catatan:
 ### References (Uncategorized)
 
 <https://www.ripublication.com/ijaer18/ijaerv13n9_42.pdf>
+
+## Other
+
+- Buat future work: penggunaan multiprocessing/multithreading
